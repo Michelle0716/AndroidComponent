@@ -36,7 +36,7 @@ android {
             }
         }
     }
-
+   //设定资源文件一定要以shop_开头
     resourcePrefix "shop_"
 }
 

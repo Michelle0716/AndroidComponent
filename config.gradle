@@ -1,5 +1,7 @@
 ext {
-    isBuildApp=true;//false:作为Lib组件存在， true:作为application存在
+    isBuildApp=false;//false:作为Lib组件存在， true:作为application存在
+    //注意：这里组件化是一个思想，在为一个app的时候，可以调用，完全打包进去，
+    // ture的时候是各自的app，会出现异常，因为是各自存在的独立个体，低耦合。sample没有登陆和商店模块。
 
     android = [
             compileSdkVersion: 23,
